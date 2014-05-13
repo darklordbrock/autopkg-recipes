@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Auducity</string>
+        <string>Audacity</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
@@ -65,7 +65,7 @@
                     <key>pkgdir</key>
                     <string>%RECIPE_CACHE_DIR%</string>
                     <key>id</key>
-                    <string>com.auducity.pkg</string>
+                    <string>com.audacity.pkg</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
