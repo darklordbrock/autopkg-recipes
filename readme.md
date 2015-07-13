@@ -9,3 +9,5 @@ https://github.com/autopkg/hjuutilainen-recipes
 https://github.com/autopkg/rustymyers-recipes
 
 https://github.com/autopkg/hansen-m-recipes
+
+https://github.com/autopkg/n8felton-recipes
