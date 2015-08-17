@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the latest Adobe Creative Cloud Cleaner Tool</string>
+    <key>Identifier</key>
+    <string>com.github.darklordbrock.download.AdobeCreativeCloudCleanerTool</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>AdobeCreativeCloudCleanerTool</string>
+        <key>URL</key>
+        <string>http://download.macromedia.com/SupportTools/Cleaner/mac/AdobeCreativeCloudCleanerTool.dmg</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.4.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Comment</key>
+            <string>Download latest Adobe Creative Cloud Cleaner Tool disk image</string>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>%URL%</string>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
